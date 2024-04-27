@@ -18,6 +18,7 @@ class SpinnerActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener 
     lateinit var spinner : Spinner
     var data = arrayOf("Momo","Rice","Pizza","Pasta","Sandwich","Lakhamari")
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_spinner)
@@ -45,6 +46,4 @@ class SpinnerActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener 
     override fun onNothingSelected(parent: AdapterView<*>?) {
         TODO("Not yet implemented")
     }
-
-
 }
